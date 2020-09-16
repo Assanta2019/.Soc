@@ -1,0 +1,14 @@
+.Navbar a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  color: #4b899b;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+}

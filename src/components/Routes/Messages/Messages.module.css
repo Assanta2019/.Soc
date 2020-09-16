@@ -1,0 +1,29 @@
+.Message {
+  background: #004953;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.MessagesItem {
+  padding-top: 10px;
+}
+
+.Dialogs {
+  padding-top: 10px;
+}
+
+.Messages {
+  padding-top: 10px;
+}
+
+.DialogItem {
+  padding-top: 10px;
+}
+
+.active {
+  color: gold;
+}
