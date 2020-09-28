@@ -8,6 +8,11 @@
   color: #fff;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .MessagesItem {
   padding-top: 10px;
 }

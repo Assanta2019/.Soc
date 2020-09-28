@@ -1,0 +1,20 @@
+.Header_First {
+  text-decoration: none;
+}
+
+.Header_bold_text {
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  /* margin-left: 65px;
+  margin-top: 10px; */
+  background-color: red;
+  width: 200px;
+  padding-left: 70px;
+  height: 60px;
+}
+
+.Header {
+  display: grid;
+  grid-area: h;
+}

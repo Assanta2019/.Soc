@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 function DialogItem(props) {
   return (
     <div className={(classes.MessagesItem, classes.active)}>
-      <Link to={"/messages/" + props.id}>{props.name}</Link>
+      <Link to={"/messages/" + props.id}>{props.name}:</Link>
     </div>
   );
+}
+
+function Message(props) {
+  return <div className={classes.Dialog}>{props.message}</div>;
 }
 
 class Messages extends Component {
@@ -23,8 +27,9 @@ class Messages extends Component {
         </div>
 
         <div className={classes.Dialogs}>
-          <div className={classes.Dialog}>How are you?</div>
-          <div className={classes.Dialog}>Im fine</div>
+          <Message message="Kirill is gay?" />
+          <Message message="How are you?" />
+          <Message message="Im fine" />
         </div>
       </div>
     );

@@ -1,0 +1,10 @@
+.ProfileInfo img {
+  width: 730px;
+  border: 5px solid #000;
+}
+
+.Border {
+  border: 1px solid #ccc;
+  width: 1000px;
+  background-color: ccc;
+}
