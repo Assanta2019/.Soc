@@ -8,11 +8,7 @@ class Music extends Component {
     return (
       <div className={classes.Music}>
         <h1>Тут находится музыка, которую ты слушаешь.</h1>
-        <ReactAudioPlayer
-          src="./Player/MusFiles/Wolfgang Amadeus Mozart - Allegro Molto (Symphony No. 40 In G Minor, K. 550).mp3"
-          controls
-          autoPlay
-        />
+        <Player />
       </div>
     );
   }

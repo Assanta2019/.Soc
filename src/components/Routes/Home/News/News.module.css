@@ -1,0 +1,22 @@
+.News {
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  margin-left: 800px;
+  webkit-filter: saturate(110%);
+  filter: saturate(110%);
+  background: linear-gradient(0deg, #b13cff, #dd45d3 50%, #fd9d52);
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  max-width: 500px;
+  flex-direction: column;
+}
+
+.News h4 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+}
